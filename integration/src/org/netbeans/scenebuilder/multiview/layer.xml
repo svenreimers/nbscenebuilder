@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Loaders">
+        <folder name="text">
+            <folder name="x-fxml+xml">
+                <folder name="Factories">
+                    <file name="FXMLDataLoader.instance_hidden"/>
+                    <file name="FXMLDataLoaderSB.instance">
+                        <attr name="dataObjectClass" stringvalue="org.netbeans.modules.javafx2.editor.fxml.FXMLDataObject"/>
+                        <attr name="iconBase" stringvalue="org/netbeans/scenebuilder/multiview/resources/SceneBuilderLogo_16.png"/>
+                        <attr name="instanceCreate" methodvalue="org.openide.loaders.DataLoaderPool.factory"/>
+                        <attr name="mimeType" stringvalue="text/x-fxml+xml"/>
+                    </file>
+                </folder>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <folder name="SceneBuilder">
+                <attr name="displayName" bundlevalue="org.netbeans.scenebuilder.multiview.Bundle#CTL_SceneBuilder"/>
+                <attr intvalue="10650" name="position"/>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Groups">
+            <file name="SceneBuilderGroup.wsgrp" url="groups/SceneBuilderGroupWsgrp.xml"/>
+            <folder name="SceneBuilderGroup">
+                <file name="FXMLLibraryTopComponent.wstcgrp" url="groups/FXMLLibraryTopComponentWstcgrp.xml"/>
+                <file name="FxmlInspectorTopComponent.wstcgrp" url="groups/FxmlInspectorTopComponentWstcgrp.xml"/>
+                <file name="CssTopComponent.wstcgrp" url="groups/CssTopComponentWstcgrp.xml"/>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>

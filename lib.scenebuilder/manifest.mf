@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+AutoUpdate-Show-In-Client: false
+OpenIDE-Module: com.oracle.scenebuilder
+OpenIDE-Module-Localizing-Bundle: com/oracle/scenebuilder/Bundle.properties
+OpenIDE-Module-Specification-Version: 11.0
+OpenIDE-Module-Java-Dependencies: Java > 1.8.0
+
